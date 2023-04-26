@@ -153,7 +153,7 @@ module "line" {
     source = "./cubical"
 }
 ```
-Now you can run `terraform init` and `terraform plan` (make sure you are in `/home/playground/workdir/Terraform-X-Minecraft` directory), and you should see the same output as before. Before applying anything, we should improve our module making it even more well-rounded. Let's look at our `cubical/main.tf` file first, and update the `locals` block to look like the one below:
+Now you can run `terraform init` and `terraform plan` (make sure you are in `/home/playground/workdir/Terraform-X-Minecraft` directory), and you should see the same output as before. Before applying anything, we should improve our module by making it even more well-rounded. Let's look at our `cubical/main.tf` file first, and update the `locals` block to look like the one below:
 
 ```
 locals {
